@@ -5,7 +5,7 @@ import time
 
 # ------------------ PAGE CONFIG ------------------
 st.set_page_config(
-    page_title="Hardik Tech Blog",
+    page_title="Hardik Tech ",
     page_icon="🚀",
     layout="wide"
 )
@@ -99,4 +99,5 @@ st.success("Blog Loaded Successfully 🚀")
 
 # ------------------ FOOTER ------------------
 st.markdown("---")
+
 st.markdown("© 2026 Hardik Tech Lab | Built with Streamlit")

@@ -5,7 +5,7 @@ import time
 
 # ------------------ PAGE CONFIG ------------------
 st.set_page_config(
-    page_title="Hardik Tech ",
+    page_title="Hardik Tech Blog ",
     page_icon="🚀",
     layout="wide"
 )
@@ -51,8 +51,8 @@ st.divider()
 posts = {
     "🤖 Robotics": [
         {
-            "title": "Building My First Robot",
-            "content": "Improved motor control using PWM and optimized movement logic."
+            "title": "AI Robot",
+            "content": "This Robot cAN Talk like a natural person"
         },
         {
             "title": "Obstacle Avoidance Bot",
@@ -88,16 +88,17 @@ for post in posts[category]:
     st.divider()
 
 # ------------------ PROGRESS ANIMATION ------------------
-st.subheader("📈 Loading Blog...")
+st.subheader("📈 Loading Blog Updates...")
 
 progress = st.progress(0)
 for i in range(100):
     time.sleep(0.01)
     progress.progress(i + 1)
 
-st.success("Blog Loaded Successfully 🚀")
+st.success("Blog is up to date 🚀")
 
 # ------------------ FOOTER ------------------
 st.markdown("---")
 
 st.markdown("© 2026 Hardik Tech Lab | Built with Streamlit")
+

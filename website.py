@@ -2,12 +2,7 @@ import streamlit as st
 from streamlit_lottie import st_lottie
 import requests
 import time
-st.markdown(
-    """
-    <meta name="google-site-verification" content="-P3bAIc5hAjPyQTQKulUP6mOwSSPi2VPRi3faqoMbBM" />
-    """,
-    unsafe_allow_html=True
-)
+
 
 # ------------------ PAGE CONFIG ------------------
 st.set_page_config(
@@ -107,5 +102,6 @@ st.success("Blog is up to date 🚀")
 st.markdown("---")
 
 st.markdown("© 2026 Hardik Tech Lab | Built with Streamlit")
+
 
 
